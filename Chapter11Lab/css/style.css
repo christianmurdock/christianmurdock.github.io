@@ -1,0 +1,27 @@
+html {
+    background-color: navajowhite;
+}
+
+header {
+    background-color: rgb(197, 163, 113);
+}
+
+footer {
+    background-color: rgb(197, 163, 113);
+}
+
+a:link {
+    color: skyblue;
+}
+
+a:hover {
+    color: crimson;
+}
+
+a:visited {
+    color: rgb(255, 87, 255);
+}
+
+a:active {
+    color: rgb(123, 255, 0);
+}
