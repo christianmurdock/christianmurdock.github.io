@@ -1,8 +1,0 @@
-.icon {
-    transition: all .5s;
-}
-
-svg:hover .icon {
-    fill: teal;
-
-}
