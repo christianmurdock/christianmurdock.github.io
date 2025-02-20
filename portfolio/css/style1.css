@@ -1,0 +1,76 @@
+/*Christian Murdock
+February 20, 2025 */
+
+/* ***MAIN*** */
+
+html {
+    font-family: "Arial";
+}
+
+/* ***LINKS*** */
+
+a:link {
+    color: rgb(21, 80, 107);
+}
+
+a:hover {
+    color: rgb(50, 161, 98);
+}
+
+/* ***IMAGES***  */
+
+.banner {
+    width: 1000px;
+}
+
+/* ***TABLE*** */
+
+table {
+    border:1px solid d8fff9;
+    border-collapse:collapse;
+    padding:5px;
+    width: 800px;
+    text-align: left;
+}
+table th {
+    border:1px solid #b3adad;
+    padding:5px;
+    background: #EAFFFE;
+    color: #313030;
+    text-align: left;
+}
+table td {
+    border:1px solid #b3adad;
+    text-align:center;
+    padding:5px;
+    background: #ffffff;
+    color: #313030;
+    text-align: left;
+}
+
+/* ***TEXT*** */
+
+.intro {
+    font-size: 24px;
+    color: rgb(3, 184, 184);
+    padding: 20px 60px;
+    text-align: left;
+}
+
+.highlight {
+    background-color: rgb(148, 234, 255);
+    padding: 2px;
+}
+
+/* ***ALERT CLASS*** */
+
+.alert {
+    background: rgb(248, 91, 91);
+    color: white;
+    font-weight: bold;
+    padding: 5px 
+}
+
+.blue {
+    background: rgb(116, 116, 255);
+}
