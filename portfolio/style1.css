@@ -35,6 +35,10 @@ thead th {
     background-color: #a4e7dd;
 }
 
+tbody {
+    background-color: #1c2541;
+}
+
 tbody th {
     border:1px solid #b3adad;
     padding:5px;
@@ -45,8 +49,7 @@ tbody th {
 tbody td {
     border:1px solid #b3adad;
     text-align:center;
-    padding:5px;
-    background: #1c2541;
+    padding:5px;;
     color: #ffffff;
     text-align: left;
 }
