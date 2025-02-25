@@ -25,27 +25,47 @@ a:hover {
 
 /* ***TABLE*** */
 
-table {
-    border:1px solid d8fff9;
+thead th {
+    border:1px solid #ffffff;
     border-collapse:collapse;
     padding:5px;
     width: 800px;
     text-align: left;
+    color: #000000;
+    background-color: #a4e7dd;
 }
-table th {
+
+tbody {
+    background-color: #1c2541;
+}
+
+tbody th {
     border:1px solid #b3adad;
     padding:5px;
-    background: #EAFFFE;
-    color: #313030;
+    background: #1c2541;
+    color: #ffffff;
     text-align: left;
 }
-table td {
+tbody td {
     border:1px solid #b3adad;
     text-align:center;
-    padding:5px;
-    background: #ffffff;
-    color: #313030;
+    padding:5px;;
+    color: #ffffff;
     text-align: left;
+}
+
+caption {
+    color: #000000;
+    font-size: 24px;
+    padding: 12px;
+}
+
+thead {
+    background-color: #5bc0be;
+}
+
+tr:nth-child(even) {
+    background: #3a506b;
 }
 
 /* ***TEXT*** */
