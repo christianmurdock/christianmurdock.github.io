@@ -29,6 +29,73 @@
         <p>I will graduate in the Spring of 2026 and am eager to take an internship! Contact me at <a href - mailto:"(003) 993-7773">cmurdock112@gmail.comm</href> or <a href - "tel:+10039937773">(003) 993-7773</a>.</p>
     </main>
 
+<form action="mailto:christianmurdock@my.cwi.edu?subject=Personal%20Portfolio%20Mail" enctype="text/plain" method="POST">
+        <!-- Group Fields Together-->
+        <fieldset>
+        <legend>How do I contact you?</legend>
+            <!-- Company input type="text" completed below for you as an example-->
+            <div>         
+                <label for="compName">Company name:</label>
+                <input type="text" id="compName" name="compName"><br>
+            </div>
+
+            <!-- Person to Contact input type="text" -->
+            <div>
+                <label for="personToContact">Person to Contact:</label>
+                <input type="text" id="compName" name="personToContact"><br>
+            </div>
+
+            <!-- Email Text Box input type="text" -->	
+            <!--Video 9.9 Building and Testing a Valid Form-->	
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder = "Your Email"><br>
+            </div>
+
+            <!-- Phone Number input type="text" -->
+            <!--Video 9.9 Building and Testing a Valid Form-->
+            <div>
+                <label for="email">Phone Number:</label>
+                <input type="email" id="email" name="email" placeholder = "(000) 000-0000"><br>
+            </div>
+        </fieldset>
+
+        <!-- Group Fields Together, page 104 -->
+        <fieldset>
+            <legend>What opportunities are available at your company?</legend>
+            <!-- Select Box, https://www.w3schools.com/tags/tag_select.asp -->
+
+            <label for="position">Type of Position: </label>
+            <select name = "position" id="position">            
+                <option value = "internship">Internship</option>
+                <option value = "parttime">Part-Time</option>
+                <option value = "fulltime">Full-Time</option>
+                <option value = "contract">Contract</option>
+                <option value = "temporary">Temporary</option>
+                <option value = "oncall">On call</option>
+            </select>
+
+            <br><br>
+            <label for="how">How did you Find Me?</label>
+            <!-- Radio Buttons, https://www.w3schools.com/tags/att_input_type_radio.asp -->
+            <input type="radio" id="linkedin" name="howdidyoufindme" value="LINKEDIN">
+                <label for="linkedin">LinkedIn</label>
+            <input type="radio" id="jobfair" name="howdidyoufindme" value="JOBFAIR">
+                <label for="jobfair">Job Fair</label>
+            <input type="radio" id="cwicorppartner" name="howdidyoufindme" value="CWICORPORATEPARTNER">
+                <label for="cwicorppartner">CWI Corporate Partner</label>
+            
+
+            <div>
+                <!-- Text Area, https://www.w3schools.com/tags/tag_textarea.asp -->
+                <textarea id="prepare" name="prepare" rows="8" cols="90">
+How should I prepare for the interview?
+                </textarea>
+            </div>
+        </fieldset>
+		<input type="submit" id="submit" value="Submit" class="btn">
+     </form>
+    
     <footer>
         <hr>
         <p>&copy; 2025 Christian Murdock</p>
