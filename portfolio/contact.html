@@ -37,27 +37,27 @@
             <!-- Company input type="text" completed below for you as an example-->
             <div>         
                 <label for="compName">Company name:</label>
-                <input type="text" id="compName" name="compName"><br>
+                <input type="text" id="compName" name="compName" required/><br>
             </div>
 
             <!-- Person to Contact input type="text" -->
             <div>
                 <label for="personToContact">Person to Contact:</label>
-                <input type="text" id="compName" name="personToContact"><br>
+                <input type="text" id="compName" name="personToContact" required/><br>
             </div>
 
             <!-- Email Text Box input type="text" -->	
             <!--Video 9.9 Building and Testing a Valid Form-->	
             <div>
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email" placeholder = "Your Email"><br>
+                <input type="email" id="email" name="email" placeholder = "Your Email" required/><br>
             </div>
 
             <!-- Phone Number input type="text" -->
             <!--Video 9.9 Building and Testing a Valid Form-->
             <div>
                 <label for="phone">Phone Number:</label>
-                <input type="tel" id="phone" name="phone" placeholder = "000-000-0000"><br>
+                <input type="tel" id="phone" name="phone" placeholder = "000-000-0000" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required/><br>
             </div>
         </fieldset>
 
