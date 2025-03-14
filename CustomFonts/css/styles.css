@@ -1,0 +1,41 @@
+/* Practice CustomFonts Style Sheet */
+
+@font-face {
+    font-family: 'soria';
+    src: url('/fonts/soria-font-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+	font-family: 'soria', "Times New Roman", serif;
+    font-size: 24px;
+    color: crimson;
+    background-color: navajowhite;
+}
+
+body:hover {
+    font-size: 10px;
+}
+
+ul {
+    color: purple;
+}
+
+ul:hover {
+    color: brown;
+    text-align: center;
+    font-size: 50px;
+}
+
+footer {
+    background-color: beige;
+    color: orange;
+    text-align: center;
+}
+
+footer:hover {
+    color: rgb(255, 202, 86);
+    text-align: left;
+    font-size: 100px;
+}
