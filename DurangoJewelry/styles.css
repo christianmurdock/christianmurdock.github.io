@@ -6,7 +6,7 @@
 
 @font-face {
 	font-family: 'Roboto';
-	src: url('/fonts/roboto-fontfacekit/web fonts/roboto_regular_macroman/Roboto-Regular-webfont.woff') format('woff');
+	src: url('fonts/roboto-fontfacekit/web fonts/roboto_regular_macroman/Roboto-Regular-webfont.woff') format('woff');
 }
 
 .pacifico-regular {
