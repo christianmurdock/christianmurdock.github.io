@@ -7,12 +7,6 @@
 	font-family: 'Roboto';
 	src: url('/fonts/roboto-fontfacekit/web_fonts/roboto_regular_macroman/Roboto-Regular-webfont.woff') format('woff');
 }
-
-.pacifico-regular {
-	font-family: "Pacifico", cursive;
-	font-weight: 400;
-	font-style: normal;
-  }
   
 
 /* HTML/BODY */
