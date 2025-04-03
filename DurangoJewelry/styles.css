@@ -25,12 +25,12 @@ html {
 }
 
 h1 {
-	font-family: 'Pacifico';
+	font-family: 'Pacifico', 'Times-New-Roman', serif;
 	font-size: 4em;
 }
 
 h2 {
-	font-family: 'Roboto';
+	font-family: 'Roboto', 'Arial', sans-serif;
 	font-style: italic;
 	font-size: 2em;
 }
