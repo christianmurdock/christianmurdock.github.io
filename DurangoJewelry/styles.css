@@ -18,7 +18,7 @@
 /* HTML/BODY */
 
 html {
-	background-image: url("/images/jewelry.jpg");
+	background-image: url("./images/jewelry.jpg");
 	background-size: cover;
 	background-position: top;
 	background-repeat: no-repeat;
