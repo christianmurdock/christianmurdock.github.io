@@ -1,0 +1,76 @@
+
+/* Christian Murdock 
+   April 1, 2025 */
+
+/* CUSTOM FONTS */
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/roboto-fontfacekit/Roboto-Regular-webfont.woff') format('woff');
+}
+  
+
+/* HTML/BODY */
+
+html {
+	background-image: url("../images/jewelry.jpg");
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+}
+
+h1 {
+	font-family: 'Pacifico', 'Times-New-Roman', serif;
+	font-size: 4em;
+}
+
+h2 {
+	font-family: 'Roboto', 'Arial', sans-serif;
+	font-style: italic;
+	font-size: 2em;
+}
+
+main {
+	background: linear-gradient(to top, #F0F9E6 0%, #FFFFFF 25% );
+	padding: 20px;
+	margin: 20px;
+	border-radius: 2em;
+	font-size: 1.25em;
+	font-family: 'Arial', serif, sans-serif;
+}
+
+nav {
+	font-size: 1.5em;
+	clear: left;
+}
+
+ul {
+	list-style-type: none;
+}
+	 
+#outerwrapper {	
+	background: rgba(243,205,170, 0.4);
+	border-radius: 15%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+
+/* IMAGES */
+
+.addrightmargin {
+	float: left;
+	border-radius: 50%;
+	margin-right: 10%;
+}
+
+
+/* FOOTER */
+
+footer {
+	font-size: 1em;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+
