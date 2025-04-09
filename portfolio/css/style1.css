@@ -5,6 +5,8 @@ February 20, 2025 */
 
 html {
     font-family: "Arial";
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 /* ***LINKS*** */
@@ -24,6 +26,12 @@ a:hover {
 }
 
 /* ***TABLE*** */
+
+.classestable {
+    width: 800px;
+    margin-left: 5%;
+    margin-right: 30%;
+}
 
 thead th {
     border:1px solid #ffffff;
