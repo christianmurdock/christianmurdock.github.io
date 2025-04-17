@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'vanguard_cflight';
-    src: url('../fonts/VanguardUsed/fontspring-demo-vanguardcf-light-webfont.woff2') format('woff2'),
-         url('../fonts/VanguardUsed/fontspring-demo-vanguardcf-light-webfont.woff2') format('woff');
+    src: url('../fonts/fontspring-demo-vanguardcf-light-webfont.woff2') format('woff2'),
+         url('../fonts/fontspring-demo-vanguardcf-light-webfont.woff2') format('woff');
     font-weight: normal;
     font-style: normal;
 }

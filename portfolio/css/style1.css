@@ -14,24 +14,24 @@ Black for footer, menu, and containers: #101010;
 
 @font-face {
     font-family: 'vanguard_cfbold';
-    src: url('../fonts/VanguardUsed/fontspring-demo-vanguardcf-bold-webfont.woff2') format('woff2'),
-         url('../fonts/VanguardUsed/fontspring-demo-vanguardcf-bold-webfont.woff') format('woff');
+    src: url('../fonts/fontspring-demo-vanguardcf-bold-webfont.woff2') format('woff2'),
+         url('../fonts/fontspring-demo-vanguardcf-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'vanguard_cflight';
-    src: url('../fonts/VanguardUsed/fontspring-demo-vanguardcf-light-webfont.woff2') format('woff2'),
-         url('../fonts/VanguardUsed/fontspring-demo-vanguardcf-light-webfont.woff2') format('woff');
+    src: url('../fonts/fontspring-demo-vanguardcf-light-webfont.woff2') format('woff2'),
+         url('../fonts/fontspring-demo-vanguardcf-light-webfont.woff2') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'vanguard_cfdemibold';
-    src: url('../fonts/VanguardUsed/fontspring-demo-vanguardcf-demibold-webfont.woff2') format('woff2'),
-         url('../fonts/VanguardUsed/fontspring-demo-vanguardcf-bold-webfont.woff') format('woff');
+    src: url('../fonts/fontspring-demo-vanguardcf-demibold-webfont.woff2') format('woff2'),
+         url('../fonts/fontspring-demo-vanguardcf-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -110,7 +110,7 @@ thead th {
     text-align: left;
     color: #E7BD94;
     background-color: #101010;
-}
+} 
 
 tbody {
     background-color: #101010;
