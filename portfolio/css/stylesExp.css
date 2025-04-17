@@ -2,7 +2,7 @@
 /*   display project examples        */
 
     .projectExamples {
-        width: 90%;
+        width: 100%;
         margin: 0 auto;
     }
 
@@ -10,34 +10,31 @@
         background: #FFFFFF;
         border: 1px solid #000000;
         float: left;
-        margin: 10px;
+        margin: 5px;
         text-align: center;
         width: 32%;
     }
 
     .projectBox h4.semester {
-        background:#00008833; 
+        background:#1c2541; 
         color: #FFFFFF;
         padding: 15px;
     }
 
     .projectBox img {
         margin-bottom: 20px;
-        width: 200px;
+        width: 70%;
     }
 
     .projectBox a.button {
         display: block;
         width: 40%;
         margin: 10px auto;
-        color: #FFFFFF;
-        background: #00008833;
+        color: #000000;
+        background: #a4e7dd;
         text-align: center;
         font-weight: bold;
         text-decoration: none;
         border-radius: 15px;
         padding: 1px;
-    }
-    footer {
-        clear: left;
     }
