@@ -334,21 +334,21 @@ p {
 
 
 @font-face {
-    font-family: "VanguardCFRegular";
+    font-family: 'VanguardCFRegular';
     src: url('/font/VanguardCF-Regular.woff2') format('woff2'),
          url('/font/VanguardCF-Regular.woff')  format('woff');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
-    font-family: "VanguardCFMedium";
+    font-family: 'VanguardCFMedium';
     src: url('/font/VanguardCF-Medium.woff2') format('woff2'),
          url('/font/VanguardCF-Medium.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
-    font-family: "VanguardCFBold";
+    font-family: 'VanguardCFBold';
     src: url('/font/VanguardCF-Bold.woff2') format('woff2'),
          url('/font/VanguardCF-Bold.woff')  format('woff');
     font-weight: normal;
