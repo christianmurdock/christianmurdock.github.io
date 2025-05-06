@@ -288,21 +288,6 @@ p {
 }
 
 /**** FONTS ****/
-    /** VANGUARD **/
-@font-face {
-    font-family: 'vanguard_cfbold';
-    src: url('/font/VanguardCF-Bold.woff2') format('woff2'),
-         url('/font/VanguardCF-Bold.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'vanguard_cfmedium';
-    src: url('/font/VanguardCF-Medium.woff2') format('woff2'),
-         url('/font/VanguardCF-Medium.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
     /** GEIST-MONO **/
 @font-face {
     font-family: 'GeistMonoUltraBlack';
