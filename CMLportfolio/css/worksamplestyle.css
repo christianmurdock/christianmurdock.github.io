@@ -1,0 +1,12 @@
+.aboveh1 {
+    margin-bottom: 0px;
+    color: white;
+}
+.aboveh1 a {
+    text-decoration: none;
+    color: #e7bd94;
+}
+.aboveh1 a:hover {
+    text-decoration: underline;
+}
+

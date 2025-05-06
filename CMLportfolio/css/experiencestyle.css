@@ -1,0 +1,87 @@
+/*
+    COLORS::
+    body copy: #ffffff
+    secondary copy: #aa9682
+    link: #e7bd94
+    background: #181818
+    section background: #101010
+    border: #898989
+*/
+
+.rightlink {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.rightlink h2{
+    width: 80%;
+}
+.rightlink div {
+    width: 5%;
+}
+
+#resume {
+    margin-bottom: 5%;
+    text-align: center;
+    justify-content: right;
+
+    font-family: 'VanguardCFMedium', "Arial", sans-serif;
+    font-size: 24pt;
+    background-color: #101010;
+    color: #ffffff;
+    border: #898989 1px solid;
+    padding: 10px 20px 20px 20px;
+    border-radius: 5px;
+    width: 15%;
+
+    text-decoration: none;
+    transition: box-shadow 0.1s ease-out;
+}
+#resume:hover {
+    background-color: #181818;
+    border: #e7bd94 1px solid;
+    color: #e7bd94;
+    text-decoration: underline;
+    box-shadow: rgb(255, 255, 255) 0px 0px 0px,
+                 rgba(0, 0, 0, 0.7) 0px 10px 10px,
+                 rgba(139, 139, 139, 0.1) 0px 0px 2px;
+}
+
+.expbg {
+    width: 100%;
+    background-color: #101010;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8%;
+    padding: 60px 0px 60px 0px;
+    border-radius: 10px;
+}
+
+.expcontainer {
+    width: 90%;
+    position: relative;
+    margin: auto;
+}
+
+.expbox {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 2%;
+    padding-bottom: 40px;
+
+    background-color: #101010;
+    border-radius: 10px;
+    border: #aa9682 1px solid;
+}
+.expbox p, h3 {
+    margin-left: 3%;
+}
+.expbox p:first-child {
+    margin-top: 4%;
+}
+
+.jobTitle {
+    font-family: 'GeistMonoMedium', "Arial", sans-serif;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}

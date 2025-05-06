@@ -1,0 +1,143 @@
+ /*
+    COLORS::
+    body copy: #ffffff
+    secondary copy: #aa9682
+    link: #e7bd94
+    background: #181818
+    section background: #101010
+    border: #898989
+*/
+ 
+ /** HEADER **/
+
+header {
+    /* border: white 1px solid; */
+    height: 60px;
+    text-align: right;
+    margin-bottom: 120px;
+    
+}
+
+#logo {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    
+    background-color: #101010;
+    border: #898989 1px solid;
+    border-radius: 5px;
+    height: 60px;
+    width: 60px;
+
+    /* position: fixed; */
+}
+#logo:hover {
+   background-color: #181818;
+}
+
+#logo img{
+    height: 40%;
+}
+
+nav {
+   z-index: 1000;
+}
+
+/* nav section {
+   right: 2.5%;
+   position: fixed;
+} */
+
+nav li {
+    
+    font-family: 'GeistMonoLight', "Arial", sans-serif;
+    list-style-type: none;
+    font-size: 13pt;
+    display: inline-block;
+    padding: 20px;
+    margin-left: 10px;
+    text-decoration: none;
+
+    background-color: #101010;
+    color: white;
+    border: #898989 1px solid;
+    border-radius: 5px;
+
+    transition: transform 0.2s ease-out, background 0.2s ease-out, border 0.1s ease-in;
+}
+nav li:hover {
+   background-color: #181818;
+   border: #e7bd94 1px solid;
+   box-shadow: rgb(255, 255, 255) 0px 0px 0px,
+                 rgba(0, 0, 0, 0.7) 0px 10px 10px,
+                 rgba(139, 139, 139, 0.1) 0px 0px 2px;
+
+   transform: translate(0px, -1px);
+}
+
+ /** FOOTER **/
+
+ footer {
+    margin-top: 120px;
+    background-color: #101010;
+    padding-top: 180px;
+    padding-bottom: 40px;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+ }
+ footer main {
+    display: flex;
+    align-items: flex-end;
+ }
+
+ footer p {
+    color: white;
+ }
+
+ .third1 {
+    width: 33%;
+ }
+ .third2 {
+    width: 34%;
+ }
+ .third3 {
+    width: 33%;
+ }
+ .third3 a{
+   color: white;
+   text-decoration: underline;
+ }
+ .third3 a:hover {
+   color: #e7bd94;
+ }
+ .pf2 {
+    text-align: center;
+ }
+ .pf3 {
+    text-align: right;
+ }
+
+ .bigcontact {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 180px;
+    width: 95%;
+ }
+.bigcontact a{
+   text-decoration: none;
+   color: white;
+
+   transition: color 0.2s ease-in-out;
+}
+.bigcontact a:hover {
+   color: #e7bd94;
+}
+
+ #contactme {
+    font-size: 6em;
+    margin-top: 30px;
+    line-height: 90%;
+}

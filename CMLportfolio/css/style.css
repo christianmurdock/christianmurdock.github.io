@@ -1,0 +1,371 @@
+/*
+    COLORS::
+    body copy: #ffffff
+    secondary copy: #aa9682
+    link: #e7bd94
+    background: #181818
+    section background: #101010
+    border: #898989
+*/
+
+/**** MAIN ****/
+html {
+    background-color: #181818;
+    width: 100%;
+    padding-top: 20px;
+}
+
+#headerbox {
+    display: block;
+    justify-content: center;
+    margin: auto;
+    width: 1344px;
+}
+
+#hero {
+    font-family: 'GeistMonoUltraBlack', "Arial", sans-serif;
+    width: 100%;
+    font-size: 10vw;
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    line-height: 90%;
+
+    transition: color 0.7s ease-out;
+}
+#headerbox:hover #hero {
+    color: #ffe2c5;
+}
+
+#note {
+    text-align: right;
+    color: rgb(151, 151, 151);
+}
+#headerbox #note {
+    font-size: 0.8rem;
+    margin-right: 4%;
+}
+#headerbox #mynameis {
+    font-size: 0.9rem;
+    color: rgb(151, 151, 151);
+    margin-bottom: 0;
+}
+#mynameis a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+body {
+    margin: auto;
+    color: white;
+}
+
+main {
+    /* border: white 1px solid; */
+    margin: auto;
+    width: 95%;
+    padding-bottom: 10px;
+}
+
+.content { /* All of the content after the hero header, including h1 and h2s */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+
+    /* border: gray 1px solid; */
+    width: 1344px;
+}
+
+h1:first-of-type {
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+
+#threemain {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.homewscontainer {
+    margin-left: 2%;
+}
+
+.workthird {
+    background-color: #101010;
+    border: #898989 1px solid;
+    height: 500px;
+    width: 33%;
+    border-radius: 10px;
+    margin-right: 2%;
+
+    text-decoration: none;
+    color: white;
+
+    transition: transform .3s ease-out, box-shadow 0.2s ease-out, border 0.1s ease-in;
+}
+.workthird:last-child {
+    margin-bottom: 0;
+}
+.workthird h4{
+    font-family: 'VanguardCFRegular', "Arial", sans-serif;
+    font-size: 40pt;
+    letter-spacing: 2px;
+}
+.workthird p {
+    color: white;
+}
+.workthird:hover {
+    border: #e7bd94 1px solid;
+    box-shadow: rgb(255, 255, 255) 0px 0px 0px,
+                 rgba(0, 0, 0, 0.9) 0px 10px 20px;
+    transform: translateY(-3px);
+}
+.workthird:hover h4 {
+    text-decoration: underline;
+    color: #e7bd94;
+}
+
+hr { /* The beige page break at the bottom that properly separates the body from the footer*/
+    width: 200px;
+    border: #aa9682 1px solid;
+    margin-top: 120px;
+}
+
+.name {
+    color: white;
+    margin-bottom: 40px;
+}
+
+.worksamplecontainer {
+    margin-top: 80px;
+}
+
+.worksample {
+    display: block;
+    justify-content: left;
+    align-items: center;
+    padding: 3%;
+    text-decoration: none;
+    color: white;
+
+    background-color: #101010;
+    border: #898989 1px solid;
+    border-radius: 10px;
+    height: 100%;
+    margin-bottom: 2%;
+
+    transition: transform 0.4s ease-out, border 0.1s ease-in, box-shadow 0.1s ease-out;
+}
+
+.worksample > h2, p {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.worksample h2 {
+    font-family: 'VanguardCFRegular', "Arial", sans-serif;
+    font-size: 70pt;
+    letter-spacing: 2px;
+    line-height: 100%;
+}
+.worksample .bronze {
+    color: rgb(188, 110, 79);
+}
+.worksample .gold {
+    color: rgb(247, 224, 92);
+}
+.worksample:hover {
+    transform: translate(2px, 0px);
+
+    border: #e7bd94 1px solid;
+    box-shadow: rgb(255, 255, 255) 0px 0px 0px,
+                 rgba(0, 0, 0, 0.7) 0px 10px 10px,
+                 rgba(139, 139, 139, 0.9) 0px 0px 2px;
+}
+.worksample:hover h2{
+    color: #e7bd94;
+    text-decoration: underline;
+}
+
+/* For the projects coming soon, I have an alternate class with no links or anything */
+.worksamplecs {
+    opacity: 50%;
+
+    display: block;
+    justify-content: left;
+    align-items: center;
+    padding: 3%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+    background-color: #101010;
+    border: #898989 1px solid;
+    border-radius: 10px;
+    height: 100%;
+    margin-bottom: 2%;
+}
+.worksamplecs > h2, p {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.worksamplecs h2 {
+    font-family: 'VanguardCFRegular', "Arial", sans-serif;
+    font-size: 70pt;
+    letter-spacing: 2px;
+    line-height: 100%;
+}
+/* End of alternative worksample styles */
+
+.projectlabels {
+    margin-top: 2%;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+}
+.projectlabels p {
+    font-family: 'GeistMonoBold', "Arial", sans-serif;
+    background-color: #181818;
+    border: white 1px solid;
+    color: #aa9682;
+
+    padding: 5px 20px 5px 20px;
+    margin-right: 2%;
+    margin-top: 1%;
+}
+
+/** CONTACT LINK IN THE FOOTER **/
+
+.bigcontact a:hover {
+    color: #e7bd94;
+    text-decoration: underline;
+ }
+
+/**** TEXT ****/
+
+h1 {
+    font-family: 'GeistMonoBold', "Arial", sans-serif;
+    font-size: 48pt;
+    margin-bottom: 10%;
+    line-height: 100%;
+}
+h2 {
+    font-family: 'GeistMonoBold', "Arial", sans-serif;
+    font-size: 40pt;
+    margin-bottom: 8%;
+}
+h3 {
+    font-family: 'GeistMonoRegular', "Arial", sans-serif;
+    font-size: 33pt;
+    margin-bottom: 6%;
+}
+h4 {
+    font-family: 'GeistMonoRegular', "Arial", sans-serif;
+    font-size: 28pt;
+    margin-bottom: 4%;
+}
+h5 {
+    font-family: 'GeistMonoRegular', "Arial", sans-serif;
+    font-size: 23pt;
+}
+h6 {
+    font-family: 'GeistMonoRegular', "Arial", sans-serif;
+    font-size: 19pt;
+}
+p {
+    font-family: 'GeistMonoLight', "Arial", sans-serif;
+    color: #aa9682;
+}
+.psmall {
+    font-family: 'GeistMonoLight', "Arial", sans-serif;
+    font-size: 13px; 
+}
+.psmallest {
+    font-family: 'GeistMonoLight', "Arial", sans-serif;
+    font-size: 11px;
+}
+
+/**** FONTS ****/
+    /** VANGUARD **/
+@font-face {
+    font-family: 'vanguard_cfbold';
+    src: url('/font/VanguardCF-Bold.woff2') format('woff2'),
+         url('/font/VanguardCF-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'vanguard_cfmedium';
+    src: url('/font/VanguardCF-Medium.woff2') format('woff2'),
+         url('/font/VanguardCF-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+    /** GEIST-MONO **/
+@font-face {
+    font-family: 'GeistMonoUltraBlack';
+    src: url('/font/GeistMono-UltraBlack.woff2') format('woff2'),
+         url('/font/GeistMono-UltraBlack.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GeistMonoMedium';
+    src: url('/font/GeistMono-Medium.woff2') format('woff2'),
+         url('/font/GeistMono-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GeistMonoBold';
+    src: url('/font/GeistMono-Bold.woff2') format('woff2'),
+         url('/font/GeistMono-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GeistMonoRegular';
+    src: url('/font/GeistMono-Regular.woff2') format('woff2'),
+         url('/font/GeistMono-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GeistMonoLight';
+    src: url('/font/GeistMono-Light.woff2') format('woff2'),
+         url('/font/GeistMono-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GeistMonoThin';
+    src: url('/font/GeistMono-Thin.woff2') format('woff2'),
+         url('/font/GeistMono-Thin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: "VanguardCFRegular";
+    src: url('/font/VanguardCF-Regular.woff2') format('woff2'),
+         url('/font/VanguardCF-Regular.woff')  format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "VanguardCFMedium";
+    src: url('/font/VanguardCF-Medium.woff2') format('woff2'),
+         url('/font/VanguardCF-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "VanguardCFBold";
+    src: url('/font/VanguardCF-Bold.woff2') format('woff2'),
+         url('/font/VanguardCF-Bold.woff')  format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

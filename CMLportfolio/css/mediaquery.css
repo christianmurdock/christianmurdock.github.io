@@ -1,0 +1,130 @@
+@media screen and (max-width: 2400px){
+    #hero{
+        font-size: 7vw;
+    }
+}
+
+@media screen and (max-width: 2000px) {
+    #hero {
+        font-size: 9vw;
+    }
+}
+
+@media screen and (max-width: 1344px) 
+{
+    body {
+        background-color: rgb(33, 24, 46);
+    }
+    .content {
+        width: 100%;
+    }
+    #headerbox {
+        width: 100%;
+    }
+    #hero {
+        font-size: 11vw;
+        line-height: 90%;
+    }
+    p {
+        font-size: 1.1vw;
+    }
+    hr {
+        width: 14vw;
+        margin-top: 8vw;
+    }
+
+    /* Work Thirds on main page */
+    .workthird {
+        height: 40vw;
+    }
+    .workthird h4 {
+        font-size: 4.8vw;
+        letter-spacing: 0px;
+        margin-top: 5vw;
+    }
+    .workthird p {
+        font-size: 1.1vw;
+    }
+
+    /* Work Samples */
+    .worksample h2, .worksamplecs h2 {
+        font-size: 7vw;
+    }
+    .worksample p {
+        font-size: 1.3vw;
+    }
+    .worksample > h2 {
+        margin-top: 0px;
+        margin-bottom: 0;
+    }
+    .projectlabels p{
+        border: #898989 1px solid;
+        padding: 2px 12px 2px 12px;
+    }
+    /* End Work Samples*/
+
+    #contactme {
+        font-size: 7vw;
+        margin-top: 1.5vw;
+        
+    }
+    .bigcontact {
+        margin-bottom: 18vw;
+    }
+    footer  {
+        margin-top: 8vw;
+        padding-top: 16vw;
+    }
+}
+
+@media screen and (max-width: 1000px)
+{
+    body {
+        background-color: rgb(26, 32, 11);
+    }
+}
+
+@media screen and (max-width: 800px) 
+{
+    body {
+        background-color: rgb(32, 11, 11);
+    }
+
+    header {
+        height: 45px;
+    }
+
+    #logo {
+        height: 45px;
+        width: 45px;
+        border-radius: 3px;
+    }
+
+    nav li {
+        font-size: 11pt;
+        padding: 12px 15px 12px 15px;
+        border-radius: 3px;
+    }
+}
+
+@media screen and (max-width: 600px)
+{
+    body {
+        background-color: rgb(14, 16, 22);
+    }
+
+    header {
+        height: 35px;
+    }
+
+    #logo {
+        height: 35px;
+        width: 35px;
+        border-radius: 3px;
+    }
+
+    nav li {
+        font-size: 9pt;
+        padding: 10px 10px 10px 10px;
+    }
+}

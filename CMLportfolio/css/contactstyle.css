@@ -1,0 +1,195 @@
+/*
+    COLORS::
+    body copy: #ffffff
+    secondary copy: #aa9682
+    link: #e7bd94
+    background: #181818
+    section background: #101010
+    border: #898989
+*/
+
+#outercontactbox {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #101010;
+    border-radius: 10px;
+}
+
+#contactbox {
+    width: 100%;
+    background-color: #101010;
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    margin: 5%;
+
+    border-radius: 10px;
+    border: #aa9682 1px solid;
+}
+#contactbox p:first-child {
+    color: gray;
+    padding-bottom: 30px;
+}
+#contactbox h2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-bottom: 120px;
+}
+#contactbox h2:last-child {
+    margin-top: 120px;
+}
+
+#contactbox h4 {
+    font-family: 'GeistMonoThin', "Arial", sans-serif;
+    color: #aa9682;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+#compName, #email, #phone, #position {
+    width: 80%;
+    height: 80px;
+    text-align: center;
+
+    font-family: "GeistMonoRegular", "Arial", sans-serif;
+    font-size: 38px;
+}
+
+#compName::placeholder, #email::placeholder, #phone::placeholder {
+    color: rgb(182, 182, 182);
+}
+
+#phone {
+    margin-bottom: 80px;
+}
+
+#position {
+    text-align: left;
+    text-indent: 20px;
+    margin-bottom: 40px;
+}
+select option:hover {
+    background-color: red;
+}
+
+#compName,#email,#phone,#position,#prepare:focus {
+    outline: none;
+}
+
+#foundme {
+    font-family: 'VanguardCFRegular', "Arial", sans-serif;
+    font-size: 26pt;
+    letter-spacing: 1px;
+
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+
+}
+#foundme input[type="radio"] {
+    display: none;
+}
+#foundme input[type="radio"]:checked + label {
+    background-color: #181818;
+    border: white 1px solid;
+}
+
+#foundme label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(12, 12, 12);
+    border: #898989 1px solid;
+    border-radius: 5px;
+    color: white;
+
+    margin-right: 3%;
+    height: 80px;
+    width: 25%;
+    padding-bottom: 6px;
+
+    cursor: pointer;
+    transition: transform 0.2s ease-out, border 50ms ease-out;
+}
+#foundme label:last-child {
+    margin-right: 0;
+}
+#foundme label:nth-child(4){
+    width: 50%;
+}
+#foundme label:hover {
+    box-shadow: rgb(255, 255, 255) 0px 0px 0px,
+                 rgba(0, 0, 0, 0.9) 0px 10px 20px;
+    transform: translateY(-1px);
+}
+
+#preparebox {
+    margin: auto;
+    width: 85%;
+    height: 300px;
+}
+#prepare {
+    margin: auto;
+    width: 90%;
+    height: 90%;
+
+    font-size: 20px;
+    border: none;
+    padding: 20px;
+}
+
+.contactbutton {
+    font-family: 'VanguardCFBold', "Arial", sans-serif;
+    font-size: 60pt;
+    color: #181818;
+    background-color: white;
+
+    padding: 20px 30px 10px 30px;
+    margin-top: 100px;
+}
+
+.contactbutton {
+    font-family: 'VanguardCFBold', "Arial", sans-serif;
+    font-size: 60pt;
+    color: white;
+    background-color: rgb(12, 12, 12);
+    border: white 1px solid;
+    border-radius: 5px;
+
+    padding: 20px 40px 10px 40px;
+    margin-top: 100px;
+
+    transition: all 0.1s ease-out;
+}
+.contactbutton:hover {
+    color: #e7bd94;
+    cursor: pointer;
+    box-shadow: rgb(255, 255, 255) 0px 0px 0px,
+                 rgba(0, 0, 0, 0.9) 0px 10px 20px;
+    padding: 21px 42px 11px 42px;
+    transform: translateY(-2px);
+}
+
+.buttoncomment {
+    margin-top: 90px;
+    font-family: 'GeistMonoThin', "Arial", sans-serif;
+    color: white;
+}
+
+fieldset {
+    border: none;
+}
+
+.thanks {
+    text-align: center;
+    margin-top: 200px;
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Me</title>
+        <meta lang="en">
+        <meta name="author" content="Christian Murdock">
+        <meta name="description" content="Christian Murdock Software Development Boise Idaho">
+        <meta charset="UTF-8">
+        <meta name="keywords" content="client-side server-side software developer programmer">
+        <meta name="viewport" content="wide-device-width, initial-scale=1.0">
+
+        <link rel="icon" href="images/favicon.png" type="image/x-icon">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/headerfooter.css" rel="stylesheet">
+        <link href="css/mediaquery.css" rel="stylesheet">
+        <link href="css/contactstyle.css" rel="stylesheet">
+        <link href="transitionstyles.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <main>
+            <header>
+                <nav>
+                    <div id="logo">
+                        <img src="images/cmlWhite.png">
+                    </div>
+                    <a href="index.html"><li>HOME</li></a>
+                    <a href="experience.html"><li>EXPERIENCE</li></a>
+                    <a href="about.html"><li>ABOUT</li></a>
+                    <a href="contact.html"><li>CONTACT</li></a>
+                    
+                </nav>
+            </header>
+
+            <section class="content">
+                <h1>Contact Me</h1>
+            <form action="https://formsubmit.co/christianmurdock@my.cwi.edu" method="POST">
+                <section id="outercontactbox">
+                <section id="contactbox">
+                    <fieldset>
+                    <h2>How Do I Contact You?</h2>
+                    
+
+                    <h4>Company Name</h4>     
+                    <input type="text" id="compName" name="compName" placeholder="Ex: Microsoft" required/><br>
+
+                    <h4>Person to Contact</h4>    
+                        <input type="text" id="compName" name="personToContact" placeholder="Ex: John Doe" required/><br>
+
+                    <h4>Email</h4>      
+                        <input type="email" id="email" name="email" placeholder="youremail@gmail.com" required/><br>
+
+                    <h4>Phone Number</h4>       
+                        <input type="tel" id="phone" name="phone" placeholder="000-000-0000"/><br>
+
+                    <h2>What Types of Positions are Available at Your Company?</h2>
+
+                    <h4 for="position">Type of Position</h4>
+                    <select name = "position" id="position">            
+                        <option value = "internship">Internship</option>
+                        <option value = "parttime">Part-Time</option>
+                        <option value = "fulltime">Full-Time</option>
+                        <option value = "contract">Contract</option>
+                        <option value = "temporary">Temporary</option>
+                        <option value = "oncall">On call</option>
+                    </select>
+
+                    <h4>How Did You Find Me?</h4>
+                    <section id="foundme">
+                        <input type="radio" id="linkedin" name="howdidyoufindme" value="LINKEDIN">
+                        <label for="linkedin">LINKEDIN</label>
+                        <input type="radio" id="cwicorppartner" name="howdidyoufindme" value="CWICORPORATEPARTNER">
+                        <label for="cwicorppartner">CWI CORPORATE PARTNER</label>
+                        <input type="radio" id="jobfair" name="howdidyoufindme" value="JOBFAIR">
+                        <label for="jobfair">JOB FAIR</label>
+                    </section>
+
+                    <h4>How Should I prepare for <br> this interview?</h4>
+                    <section id="preparebox">
+                    <textarea id="prepare" name="prepare" rows="8" cols="90"></textarea>  <br>
+                    </section>
+
+                    <input type="hidden" name="_redirect" value="thankyou.html">
+
+                    <input class="contactbutton" type="submit" id="submit" value="SUBMIT" class="btn">
+
+                    </fieldset> </form>
+
+                    <h5 class="buttoncomment">Finally, its over. Enjoy your day!</h5>
+
+                </section> <!--contactbox-->
+            </section> <!--outercontactbox-->
+        </section> <!--content-->
+
+        </main>
+        
+    </body>
+
+    <hr>
+
+    <footer>
+    
+        <main>
+
+                <section class="third1">
+                    <p>Work + Images + Code<br>@ 2025 Christian Murdock</p>
+                </section>
+                <section class="third2">
+                    <p class="pf2">CLICK TO COPY MY EMAIL!</p>
+                </section>
+                <section class="third3">
+                    <p class="pf3">Links:<br>LinkedIn 
+                        <a href="https://github.com/christianmurdock" target="_blank">GitHub</a>
+                         Behance</p>
+                </section>
+        </main>
+    </footer>
+</html>
