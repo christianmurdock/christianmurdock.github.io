@@ -291,8 +291,8 @@ p {
     /** GEIST-MONO **/
 @font-face {
     font-family: 'GeistMonoUltraBlack';
-    src: url('/font/GeistMono-UltraBlack.woff2') format('woff2'),
-         url('/font/GeistMono-UltraBlack.woff') format('woff');
+    src: url('../font/GeistMono-UltraBlack.woff2') format('woff2'),
+         url('../font/GeistMono-UltraBlack.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
