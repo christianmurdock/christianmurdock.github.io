@@ -10,12 +10,20 @@
     width: 90%;
     background-color: #101010;
     text-align: left;
-    display: flex;
+    display: block;
     justify-content: center;
     margin: 5%;
 
     border-radius: 10px;
     border: #aa9682 1px solid;
+
+    transition: all 0.1s ease-out;
+}
+#aboutbox:hover {
+    background-color: #121212;
+    box-shadow: rgb(255, 255, 255) 0px 0px 0px,
+                rgba(0, 0, 0, 0.9) 0px 30px 50px;
+    transform: translateY(-1px);
 }
 #aboutbox p:first-child {
     margin-top: 0;
@@ -24,13 +32,27 @@
 .meimg {
     margin-top: 5%;
     margin-left: 5%;
-    margin-right: 3%;
-    margin-bottom: 5%;
+    margin-right: 5%;
+    margin-bottom: 0%;
 }
 .meimg img {
+    margin-top: 2%;
+    width: 100%;
     border-radius: 5px;
 }
 
 .abttext {
     margin: 5%;
+}
+
+.abttext p {
+    line-height: 130%;
+    font-size: 18pt;
+}
+
+#signature {
+    font-family: 'Brush Script MT', cursive;
+    color: white;
+    font-size: 32pt;
+    text-align: right;
 }

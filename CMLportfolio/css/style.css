@@ -36,7 +36,7 @@ html {
     transition: color 0.7s ease-out;
 }
 #headerbox:hover #hero {
-    color: #ffe2c5;
+    color: #ffdead;
 }
 
 #note {
@@ -45,7 +45,7 @@ html {
 }
 #headerbox #note {
     font-size: 0.8rem;
-    margin-right: 4%;
+    margin-right: 2%;
 }
 #headerbox #mynameis {
     font-size: 0.9rem;
@@ -84,9 +84,10 @@ h1:first-of-type {
 }
 
 #threemain {
-    margin: auto;
+    margin: 1%;
+    width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
 }
 
@@ -105,7 +106,7 @@ h1:first-of-type {
     text-decoration: none;
     color: white;
 
-    transition: transform .3s ease-out, box-shadow 0.2s ease-out, border 0.1s ease-in;
+    transition: transform 0.4s ease-out, box-shadow 0.2s ease-out, border 0.1s ease-in, background 0.3s ease-in;
 }
 .workthird:last-child {
     margin-bottom: 0;
@@ -119,6 +120,7 @@ h1:first-of-type {
     color: white;
 }
 .workthird:hover {
+    background-color: #121212;
     border: #e7bd94 1px solid;
     box-shadow: rgb(255, 255, 255) 0px 0px 0px,
                  rgba(0, 0, 0, 0.9) 0px 10px 20px;
@@ -140,100 +142,16 @@ hr { /* The beige page break at the bottom that properly separates the body from
     margin-bottom: 40px;
 }
 
-.worksamplecontainer {
-    margin-top: 80px;
-}
-
-.worksample {
-    display: block;
-    justify-content: left;
-    align-items: center;
-    padding: 3%;
-    text-decoration: none;
+.aboveh1 {
+    margin-bottom: 0px;
     color: white;
-
-    background-color: #101010;
-    border: #898989 1px solid;
-    border-radius: 10px;
-    height: 100%;
-    margin-bottom: 2%;
-
-    transition: transform 0.4s ease-out, border 0.1s ease-in, box-shadow 0.1s ease-out;
 }
-
-.worksample > h2, p {
-    margin-top: 10px;
-    margin-bottom: 0;
-}
-.worksample h2 {
-    font-family: 'VanguardCFRegular', "Arial", sans-serif;
-    font-size: 70pt;
-    letter-spacing: 2px;
-    line-height: 100%;
-}
-.worksample .bronze {
-    color: rgb(188, 110, 79);
-}
-.worksample .gold {
-    color: rgb(247, 224, 92);
-}
-.worksample:hover {
-    transform: translate(2px, 0px);
-
-    border: #e7bd94 1px solid;
-    box-shadow: rgb(255, 255, 255) 0px 0px 0px,
-                 rgba(0, 0, 0, 0.7) 0px 10px 10px,
-                 rgba(139, 139, 139, 0.9) 0px 0px 2px;
-}
-.worksample:hover h2{
-    color: #e7bd94;
-    text-decoration: underline;
-}
-
-/* For the projects coming soon, I have an alternate class with no links or anything */
-.worksamplecs {
-    opacity: 50%;
-
-    display: block;
-    justify-content: left;
-    align-items: center;
-    padding: 3%;
+.aboveh1 a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
-
-    background-color: #101010;
-    border: #898989 1px solid;
-    border-radius: 10px;
-    height: 100%;
-    margin-bottom: 2%;
+    color: #e7bd94;
 }
-.worksamplecs > h2, p {
-    margin-top: 10px;
-    margin-bottom: 0;
-}
-.worksamplecs h2 {
-    font-family: 'VanguardCFRegular', "Arial", sans-serif;
-    font-size: 70pt;
-    letter-spacing: 2px;
-    line-height: 100%;
-}
-/* End of alternative worksample styles */
-
-.projectlabels {
-    margin-top: 2%;
-    width: 100%;
-    display: flex;
-    justify-content: left;
-}
-.projectlabels p {
-    font-family: 'GeistMonoBold', "Arial", sans-serif;
-    background-color: #181818;
-    border: white 1px solid;
-    color: #aa9682;
-
-    padding: 5px 20px 5px 20px;
-    margin-right: 2%;
-    margin-top: 1%;
+.aboveh1 a:hover {
+    text-decoration: underline;
 }
 
 /** CONTACT LINK IN THE FOOTER **/
@@ -250,7 +168,13 @@ h1 {
     font-size: 48pt;
     margin-bottom: 10%;
     line-height: 100%;
+
+    transition: color 0.7s ease-out;
 }
+h1:hover {
+    color: #ffdead;
+}
+
 h2 {
     font-family: 'GeistMonoBold', "Arial", sans-serif;
     font-size: 40pt;
@@ -277,7 +201,16 @@ h6 {
 p {
     font-family: 'GeistMonoLight', "Arial", sans-serif;
     color: #aa9682;
+    font-size: 16pt;
 }
+p a {
+    text-decoration: none;
+    color: #e7bd94;
+}
+p a:hover {
+    text-decoration: underline;
+}
+
 .psmall {
     font-family: 'GeistMonoLight', "Arial", sans-serif;
     font-size: 13px; 

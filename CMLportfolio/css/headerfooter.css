@@ -15,7 +15,6 @@ header {
     height: 60px;
     text-align: right;
     margin-bottom: 120px;
-    
 }
 
 #logo {
@@ -28,35 +27,49 @@ header {
     background-color: #101010;
     border: #898989 1px solid;
     border-radius: 5px;
-    height: 60px;
-    width: 60px;
+    box-shadow:  rgba(0, 0, 0, 0.2) 0px 10px 10px,
+                 rgba(139, 139, 139, 0.3) 0px 0px 2px;
+                 
+    height: 50px;
+    width: 50px;
 
-    /* position: fixed; */
+    transition: transform 0.2s ease-out, border 0.1s ease-in;
+    
+    position: fixed;
+    z-index: 1000;
 }
 #logo:hover {
    background-color: #181818;
+   border: #ffffff 1px solid;
+   box-shadow: rgb(255, 255, 255) 0px 0px 0px,
+                 rgba(0, 0, 0, 0.7) 0px 10px 10px,
+                 rgba(139, 139, 139, 0.1) 0px 0px 2px;
+
+   transform: translate(0px, -1px);
+}
+#logo:hover img {
+   opacity: 100%;
 }
 
 #logo img{
     height: 40%;
+    opacity: 80%;
+
+    transition: opacity 0.1s ease-in;
 }
 
 nav {
-   z-index: 1000;
+   z-index: 999;
 }
 
-/* nav section {
-   right: 2.5%;
-   position: fixed;
-} */
-
+/* Original nav styling (validator says its wrong idfk):
 nav li {
     
     font-family: 'GeistMonoLight', "Arial", sans-serif;
     list-style-type: none;
     font-size: 13pt;
     display: inline-block;
-    padding: 20px;
+    padding: 15px;
     margin-left: 10px;
     text-decoration: none;
 
@@ -64,10 +77,46 @@ nav li {
     color: white;
     border: #898989 1px solid;
     border-radius: 5px;
+    box-shadow:  rgba(0, 0, 0, 0.2) 0px 10px 10px,
+                 rgba(139, 139, 139, 0.3) 0px 0px 2px;
 
     transition: transform 0.2s ease-out, background 0.2s ease-out, border 0.1s ease-in;
 }
 nav li:hover {
+   background-color: #181818;
+   border: #e7bd94 1px solid;
+   box-shadow: rgb(255, 255, 255) 0px 0px 0px,
+                 rgba(0, 0, 0, 0.7) 0px 10px 10px,
+                 rgba(139, 139, 139, 0.1) 0px 0px 2px;
+
+   transform: translate(0px, -1px);
+}  */
+
+nav ul {
+   list-style-type: none;
+}
+nav a {
+   text-decoration: none;
+   color: white;
+}
+nav ul li {
+   font-family: 'GeistMonoLight', "Arial", sans-serif;
+    list-style-type: none;
+    font-size: 13pt;
+    display: inline-block;
+    padding: 15px;
+    margin-left: 10px;
+    text-decoration: none;
+
+    background-color: #101010;
+    border: #898989 1px solid;
+    border-radius: 5px;
+    box-shadow:  rgba(0, 0, 0, 0.2) 0px 10px 10px,
+                 rgba(139, 139, 139, 0.3) 0px 0px 2px;
+
+    transition: transform 0.2s ease-out, background 0.2s ease-out, border 0.1s ease-in;
+}
+nav ul li:hover{
    background-color: #181818;
    border: #e7bd94 1px solid;
    box-shadow: rgb(255, 255, 255) 0px 0px 0px,
@@ -88,7 +137,9 @@ nav li:hover {
     height: auto;
     box-sizing: border-box;
  }
- footer main {
+ .footermain {
+    margin: auto;
+    width: 95%;
     display: flex;
     align-items: flex-end;
  }
@@ -137,6 +188,7 @@ nav li:hover {
 }
 
  #contactme {
+   font-family: 'GeistMonoBold', "Arial", sans-serif;
     font-size: 6em;
     margin-top: 30px;
     line-height: 90%;

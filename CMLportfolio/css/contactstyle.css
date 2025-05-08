@@ -28,6 +28,14 @@
 
     border-radius: 10px;
     border: #aa9682 1px solid;
+
+    transition: all 0.1s ease-out;
+}
+#contactbox:hover {
+    background-color: #121212;
+    box-shadow: rgb(255, 255, 255) 0px 0px 0px,
+                rgba(0, 0, 0, 0.9) 0px 30px 50px;
+    transform: translateY(-1px);
 }
 #contactbox p:first-child {
     color: gray;
@@ -51,7 +59,7 @@
     margin-bottom: 30px;
 }
 
-#compName, #email, #phone, #position {
+#name, #compName, #email, #phone, #position {
     width: 80%;
     height: 80px;
     text-align: center;
@@ -60,7 +68,7 @@
     font-size: 38px;
 }
 
-#compName::placeholder, #email::placeholder, #phone::placeholder {
+#name::placeholder, #compName::placeholder, #email::placeholder, #phone::placeholder {
     color: rgb(182, 182, 182);
 }
 
@@ -77,7 +85,7 @@ select option:hover {
     background-color: red;
 }
 
-#compName,#email,#phone,#position,#prepare:focus {
+#name, #compName,#email,#phone,#position,#prepare:focus {
     outline: none;
 }
 

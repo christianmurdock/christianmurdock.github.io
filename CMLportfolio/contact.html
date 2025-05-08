@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>Contact Me</title>
-        <meta lang="en">
         <meta name="author" content="Christian Murdock">
-        <meta name="description" content="Christian Murdock Software Development Boise Idaho">
+        <meta name="description" content="Christian Murdock Email Contact Job Opportunity Hiring">
         <meta charset="UTF-8">
         <meta name="keywords" content="client-side server-side software developer programmer">
-        <meta name="viewport" content="wide-device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <link rel="icon" href="images/favicon.png" type="image/x-icon">
         <link href="css/style.css" rel="stylesheet">
@@ -21,41 +20,52 @@
         <main>
             <header>
                 <nav>
-                    <div id="logo">
-                        <img src="images/cmlWhite.png">
-                    </div>
-                    <a href="index.html"><li>HOME</li></a>
-                    <a href="experience.html"><li>EXPERIENCE</li></a>
-                    <a href="about.html"><li>ABOUT</li></a>
-                    <a href="contact.html"><li>CONTACT</li></a>
+                    <a id="logo" href="#top"><img src="images/cmlWhite.png" alt="Christian Murdock Logo"></a>
+                    
+                    <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="experience.html">EXPERIENCE</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
                     
                 </nav>
             </header>
 
             <section class="content">
                 <h1>Contact Me</h1>
-            <form action="https://formsubmit.co/christianmurdock@my.cwi.edu" method="POST">
+                <p>Not a hiring manager? Here's my email: <a href="mailto:christianmurdock@my.cwi.edu">christianmurdock@my.cwi.edu</a></p>
+                    <br>
+                    <br>
+                    <br>
+                
                 <section id="outercontactbox">
                 <section id="contactbox">
+
+                    <form action="mailto:christianmurdock@my.cwi.edu?subject=Personal%20Portfolio%20Mail" enctype="text/plain" method="POST">
                     <fieldset>
                     <h2>How Do I Contact You?</h2>
                     
 
                     <h4>Company Name</h4>     
-                    <input type="text" id="compName" name="compName" placeholder="Ex: Microsoft" required/><br>
+                    <input type="text" id="compName" name="compName" placeholder="Ex: Microsoft" required>
+                    <br>
 
                     <h4>Person to Contact</h4>    
-                        <input type="text" id="compName" name="personToContact" placeholder="Ex: John Doe" required/><br>
+                        <input type="text" id="name" name="personToContact" placeholder="Ex: John Doe" required>
+                        <br>
 
                     <h4>Email</h4>      
-                        <input type="email" id="email" name="email" placeholder="youremail@gmail.com" required/><br>
+                        <input type="email" id="email" name="email" placeholder="youremail@gmail.com" required>
+                        <br>
 
                     <h4>Phone Number</h4>       
-                        <input type="tel" id="phone" name="phone" placeholder="000-000-0000"/><br>
+                        <input type="tel" id="phone" name="phone" placeholder="000-000-0000">
+                        <br>
 
                     <h2>What Types of Positions are Available at Your Company?</h2>
 
-                    <h4 for="position">Type of Position</h4>
+                    <h4><label for="position">Type of Position</label></h4>
                     <select name = "position" id="position">            
                         <option value = "internship">Internship</option>
                         <option value = "parttime">Part-Time</option>
@@ -73,46 +83,50 @@
                         <label for="cwicorppartner">CWI CORPORATE PARTNER</label>
                         <input type="radio" id="jobfair" name="howdidyoufindme" value="JOBFAIR">
                         <label for="jobfair">JOB FAIR</label>
-                    </section>
+                    </section><!--foundme-->
 
                     <h4>How Should I prepare for <br> this interview?</h4>
                     <section id="preparebox">
-                    <textarea id="prepare" name="prepare" rows="8" cols="90"></textarea>  <br>
-                    </section>
+                        <textarea id="prepare" name="prepare" rows="8" cols="90"></textarea>  
+                        <br>
+                    </section><!--preparebox-->
 
                     <input type="hidden" name="_redirect" value="thankyou.html">
 
-                    <input class="contactbutton" type="submit" id="submit" value="SUBMIT" class="btn">
+                    <input class="contactbutton" type="submit" id="submit" value="SUBMIT">
+                    </fieldset> 
+                    </form>
 
-                    </fieldset>
                     <h5 class="buttoncomment">Finally, its over. Enjoy your day!</h5>
+
                 </section> <!--contactbox-->
             </section> <!--outercontactbox-->
-                 </form>
-                
+
         </section> <!--content-->
 
         </main>
+
+        <hr>
+
+        <footer>
+            <div class="footermain">
+    
+                    <div class="third1">
+                        <p>Work + Images + Code<br>@ 2025 Christian Murdock</p>
+                    </div><!--third1-->
+    
+                    <div class="third2">
+                        <!--Originally this third had content, but it's just a space filler now-->
+                    </div><!--third2-->
+                    
+                    <div class="third3">
+                        <p class="pf3">Links:<br>
+                            <a href="https://linkedin.com/in/christian-murdock-141b83295" target="_blank">LinkedIn</a>
+                            <a href="https://github.com/christianmurdock" target="_blank">GitHub</a>
+                             Behance</p>
+                    </div><!--third3-->
+            </div>
+        </footer>
         
     </body>
-
-    <hr>
-
-    <footer>
-    
-        <main>
-
-                <section class="third1">
-                    <p>Work + Images + Code<br>@ 2025 Christian Murdock</p>
-                </section>
-                <section class="third2">
-                    <p class="pf2">CLICK TO COPY MY EMAIL!</p>
-                </section>
-                <section class="third3">
-                    <p class="pf3">Links:<br>LinkedIn 
-                        <a href="https://github.com/christianmurdock" target="_blank">GitHub</a>
-                         Behance</p>
-                </section>
-        </main>
-    </footer>
 </html>
